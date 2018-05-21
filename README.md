@@ -1,8 +1,11 @@
 # plantzrule2018
 PI4 2018 project
 
-Brannon Basilio \n
-Grace Jaffe \n
-Dania Morales \n
+Brannon Basilio
+
+Grace Jaffe
+
+Dania Morales
+
 Vincent Villalobos
 
