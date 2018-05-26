@@ -71,9 +71,9 @@ library(dplyr)
 canopy_cover %>% filter(!is.na(cultivar))
 canopy_cover %>% filter(!is.na(cultivar)) %>% group_by(date, cultivar) %>% summarise(n = n())
 canopy_cover %>% filter(!is.na(cultivar)) %>% group_by(cultivar) %>% summarise(n = n())
-canopy_cover %>% filter(!is.na(cultivar)) %>% group_by(cultivar) %>% summarise(n = n()) %>% sort()
-canopy_cover %>% filter(!is.na(cultivar)) %>% group_by(cultivar) %>% summarise(n = n()) %>% sort(n)
-?sort
+#canopy_cover %>% filter(!is.na(cultivar)) %>% group_by(cultivar) %>% summarise(n = n()) %>% sort()
+#canopy_cover %>% filter(!is.na(cultivar)) %>% group_by(cultivar) %>% summarise(n = n()) %>% sort(n)
+#?sort
 canopy_cover %>% filter(!is.na(cultivar)) %>% group_by(cultivar) %>% summarise(n = n()) %>% arrange(n)
 canopy_cover %>% filter(!is.na(cultivar)) %>% group_by(cultivar) %>% summarise(n = n()) %>% arrange(desc(n))
 canopy_cover %>% filter(!is.na(cultivar)) %>% group_by(cultivar, site_id) %>% summarise(n = n()) %>% arrange(desc(n))
