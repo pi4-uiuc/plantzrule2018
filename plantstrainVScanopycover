@@ -1,0 +1,20 @@
+We would like to examine the of canopy cover (over time) for each plant strain.
+Variables
+time(t)= MM-DD-YY HH:MM:SS, 
+canopy cover(c)= percentage
+
+1. Choose a strain
+2. Plot all instances of (t,c)
++2.5. Take average canopy cover for a give time.
+3. Create a model appropriate for the data.
+*4. Consider appropriate error bounds for this model (lower and upper).
+*5. Discuss any outliers.
+5. Repeat this process for another strain of the plant. 
+6. Compare the time versus canopy cover models for each strain.
+
+Questions:
+Which plants tend to grow more quickly?
+Are there plants that do not reach 100% canopy cover? 
+
++If we need to simplify the data. This will give less data points.
+*If time permits
